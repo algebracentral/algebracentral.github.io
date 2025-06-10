@@ -1,2 +1,63 @@
-ALGEBRA.
-<a href="epics.html">algebra</a>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Massive Algebra Button</title>
+<style>
+  body {
+    /* Make the body take up the full height of the viewport */
+    min-height: 100vh;
+    /* Use flexbox to center content */
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center;     /* Vertically center */
+    margin: 0; /* Remove default body margin */
+    background-color: #f0f0f0; /* Just a light background for contrast */
+  }
+
+  .algebra-button {
+    /* General Button Styling */
+    display: inline-block; /* Allows padding and width */
+    padding: 40px 80px; /* MUCH more padding for a massive feel */
+    background-color: #FF5722; /* A bold, eye-catching orange */
+    color: white;
+    text-decoration: none;
+    font-family: 'Arial Black', sans-serif; /* A strong, bold font */
+    font-size: 60px; /* Super massive text! */
+    font-weight: bold;
+    border-radius: 15px; /* Slightly more rounded corners */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4); /* Bigger, more pronounced shadow */
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    letter-spacing: 2px; /* A little space between letters */
+    text-transform: uppercase; /* Ensure "ALGEBRA" is uppercase even if written lowercase */
+  }
+
+  .algebra-button:hover {
+    background-color: #E64A19; /* Darker orange on hover */
+    transform: translateY(-5px); /* Lifts even more on hover */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5); /* Even bigger shadow on hover */
+  }
+
+  /* Just a little something for the text "ALGEBRA." */
+  .title-text {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: #333;
+    position: absolute; /* Position it relative to the body */
+    top: 50px; /* A bit from the top */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust for true centering */
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box; /* Include padding/border in width */
+  }
+
+</style>
+</head>
+<body>
+
+  <div class="title-text">ALGEBRA.</div>
+
+  <a href="epics.html" class="algebra-button">ALGEBRA</a>
+
+</body>
+</html>
